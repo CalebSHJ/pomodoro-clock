@@ -1,38 +1,84 @@
+body {
+  background-color: rgb(122, 73, 14);
+}
 .App {
+  margin: 20vh auto;
+  max-width: 600px;
   text-align: center;
+  background-color: rgb(165, 120, 21);
+  padding: 1.5rem;
+  border-radius: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  font-size: 3rem;
+  color: rgb(237, 205, 144);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.length {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.length > .break {
+  margin-right: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.length #break-label, #session-label {
+  font-size: 1.3rem;
+  color: rgb(240, 223, 192);
 }
+
+.length > .break > .break-ctrl {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.length button {
+  font-size: 1rem;
+  border-radius: 10px;
+  background-color:rgb(237, 205, 144);
+}
+
+
+.length > .session {
+  margin-left: 3rem;
+}
+
+.length > .session > .session-ctrl {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 2rem;
+}
+
+
+.display {
+  margin: 1rem auto;
+  border: 3px solid black;
+  max-width: 300px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.display > #timer-label {
+  color: rgb(240, 223, 192);
+  font-size: 20px;
+}
+
+.display > #time-left {
+  margin-top: 10px;
+  font-size: 4rem;
+  background-color: rgb(70, 52, 18);
+  border-radius: 10px;
+}
+
+.controller button {
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: rgb(237, 205, 144);
+}
+
