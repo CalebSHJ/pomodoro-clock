@@ -80,5 +80,12 @@ body {
   font-size: 20px;
   border-radius: 10px;
   background-color: rgb(237, 205, 144);
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(237, 205, 144);
 }
 

@@ -122,6 +122,7 @@ function App() {
         <button id="reset" onClick={resetHandle}>↩︎</button>
       </div>
       <audio id="beep" preload='auto' src={sound} type='audio/mpeg'/>
+      <a href='https://github.com/CalebSHJ/pomodoro-clock'>Go to check codes</a>
     </div>
   );
 }
